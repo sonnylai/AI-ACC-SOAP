@@ -1,0 +1,33 @@
+{
+  "schemas": [
+    {
+      "name": "nms:recipient",
+      "fields": [
+        {
+          "name": "email",
+          "label": "Email address",
+          "type": "string",
+          "description": "Primary customer email used for targeting and delivery",
+          "examples": ["john@gmail.com", "mary@company.com"],
+          "tags": ["contact", "identifier"]
+        },
+        {
+          "name": "age",
+          "label": "Age",
+          "type": "long",
+          "description": "Customer age in years",
+          "examples": ["21", "35", "67"],
+          "tags": ["demographic"]
+        },
+        {
+          "name": "countryCode",
+          "label": "Country",
+          "type": "string",
+          "description": "ISO country code for customer",
+          "examples": ["SG", "VN", "US"],
+          "tags": ["geo"]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "ai-acc-soap",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "compute-cosine-similarity": "^1.1.0",
+    "dotenv": "^17.2.3",
+    "openai": "^6.15.0",
+    "strong-soap": "^5.0.5"
+  }
+}
